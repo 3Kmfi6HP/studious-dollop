@@ -1,0 +1,10 @@
+{
+    "servers": [
+        "https+local://1.0.0.1/dns-query",
+        "https+local://8.8.4.4/dns-query",
+        "https+local://8.8.8.8/dns-query",
+        "https+local://9.9.9.9/dns-query",
+        "1.1.1.2",
+        "1.0.0.2"
+    ]
+}
