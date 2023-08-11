@@ -1,0 +1,28 @@
+[
+    {
+        "protocol": "wireguard",
+        "settings": {
+            "address": [
+                "172.16.0.2/32",
+                "2606:4700:110:86c2:d7ca:13d:b14a:e7bf/128"
+            ],
+            "peers": [
+                {
+                    "allowedIPs": [
+                        "0.0.0.0/0",
+                        "::/0"
+                    ],
+                    "endpoint": "162.159.193.10:2408",
+                    "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+                }
+            ],
+            "reserved": [
+                249,
+                159,
+                96
+            ],
+            "secretKey": "yG/Phr+fhiBR95b22GThzxGs/Fccyl0U9H4X0GwEeHs="
+        },
+        "tag": "WARP"
+    }
+]

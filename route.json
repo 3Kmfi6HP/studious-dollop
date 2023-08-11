@@ -1,0 +1,13 @@
+{
+    "domainStrategy": "AsIs",
+    "rules": [
+        {
+            "type": "field",
+            "outboundTag": "WARP",
+            "domain": [
+                "domain:openai.com",
+                "domain:ai.com"
+            ]
+        }
+    ]
+}
