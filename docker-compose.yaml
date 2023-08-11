@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - UUID=01a921b6-ab91-4ca5-b082-26f4aaea9d6e
+      - TUNNEL_TOKEN=eyJhIjoiYTFmOTNjYzhkZTUyYWZkZmVhOGUzODExMTQxMTJmNTkiLCJ0IjoiYTUzMGUyMGYtYThmNC00OTNkLThhYjYtMTkyYjYyYWQ4NzJlIiwicyI6Ik5qWTBZVGMyTmpVdE5XUTJNUzAwWXpZMUxXSXdNVFF0TURGbU9HWTROamhsTnprMSJ9
